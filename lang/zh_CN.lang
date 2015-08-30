@@ -5,7 +5,7 @@ death.attack.darkness.player=%1$s在和%2$s战斗是时候被暗影吞噬掉了.
 death.attack.darkness=%1$s被暗影吞噬掉了.
 death.attack.divbyzero=%1$s遭遇了一次致命异常'java.lang.ArithmeticException:  by 钻石'
 
-power.drain=
+power.drain=能量消耗倍率: x%1$s
 
 item.extrautils:angelRing.name=天使指环
 item.extrautils:angelRing.0.name=隐形翅膀
@@ -26,8 +26,8 @@ item.extrautils:erosionShovel.name=侵蚀之铲
 item.extrautils:ethericsword.name=天域之剑
 item.extrautils:golden_bag.name=镶金手提袋
 item.extrautils:golden_lasso.name=黄金套索
-item.extrautils:glove.name=
-item.extrautils:glove.english.name=
+item.extrautils:glove.name=手套
+item.extrautils:glove.english.name=英伦手套
 item.extrautils:heatingElement.name=加热线圈
 item.extrautils:microblocks.0.name=管道夹套
 item.extrautils:microblocks.1.name=栅栏
@@ -44,9 +44,9 @@ item.extrautils:nodeUpgrade.6.name=节点升级:末影收信
 item.extrautils:nodeUpgrade.7.name=节点升级:深度优先搜索
 item.extrautils:nodeUpgrade.8.name=节点升级:宽度优先搜索
 item.extrautils:nodeUpgrade.9.name=节点升级:伪循环模式
-item.extrautils:nodeUpgrade.10.name=
+item.extrautils:nodeUpgrade.10.name=高级物品过滤器
 
-item.extrautils:nodeUpgrade.10.program.default=
+item.extrautils:nodeUpgrade.10.program.default=默认程序
 item.extrautils:nodeUpgrade.10.program.block=
 item.extrautils:nodeUpgrade.10.program.item=
 item.extrautils:nodeUpgrade.10.program.hassubtypes=
@@ -86,50 +86,50 @@ item.extrautils:sonar_goggles.name=声呐护目镜
 item.extrautils:temporalHoe.name=回溯之锄
 item.extrautils:unstableingot.0.name=不稳定金属锭
 item.extrautils:unstableingot.1.name=不稳定金属粒
-item.extrautils:unstableingot.2.name=
+item.extrautils:unstableingot.2.name=莫比乌斯"稳定/不稳定"锭
 item.extrautils:watering_can.busted.name=洒水壶(损坏)
 item.extrautils:watering_can.empty.name=洒水壶(空)
 item.extrautils:watering_can.reinforced.name=洒水壶(强化)
 item.extrautils:watering_can.name=洒水壶
 item.extrautils:lawSword.name=
-item.extrautils:lawSword.tooltip=
+item.extrautils:lawSword.tooltip=不幸诅咒之刃
 
 
-attribute.name.extrautils.armorPiercingAttackDamage=
-attribute.name.extrautils.godSlayingAttackDamage=
-attribute.name.extrautils.freezeProtection=
+attribute.name.extrautils.armorPiercingAttackDamage=装甲穿刺伤害
+attribute.name.extrautils.godSlayingAttackDamage=神圣伤害
+attribute.name.extrautils.freezeProtection=冰冻保护
 
 
 itemGroup.extraUtil=更多实用设备
 itemGroup.extraUtil_FMP=更多实用设备|小方块
 
-material.extrautils.bedrockium=
-material.extrautils.bedrockium.ability=
-material.extrautils.magicwood=
-material.extrautils.magicwood.ability=
-material.extrautils.unstableIngot=
+material.extrautils.bedrockium=基岩锭
+material.extrautils.bedrockium.ability=沉重
+material.extrautils.magicwood=魔木
+material.extrautils.magicwood.ability=可塑
+material.extrautils.unstableIngot=不稳定感应
 material.extrautils.unstableIngot.ability=
 
 tile.extrautils:angelBlock.name=天使方块
 tile.extrautils:budoff.0.name=方块更新检测器
 tile.extrautils:budoff.3.name=方块更新检测器(高级)
 
-tile.extrautils:colorBlock.0.name=
-tile.extrautils:colorBlock.1.name=
-tile.extrautils:colorBlock.2.name=
-tile.extrautils:colorBlock.3.name=
-tile.extrautils:colorBlock.4.name=
-tile.extrautils:colorBlock.5.name=
-tile.extrautils:colorBlock.6.name=
-tile.extrautils:colorBlock.7.name=
-tile.extrautils:colorBlock.8.name=
-tile.extrautils:colorBlock.9.name=
-tile.extrautils:colorBlock.10.name=
-tile.extrautils:colorBlock.11.name=
-tile.extrautils:colorBlock.12.name=
-tile.extrautils:colorBlock.13.name=
-tile.extrautils:colorBlock.14.name=
-tile.extrautils:colorBlock.15.name=
+tile.extrautils:colorBlock.0.name=染色 BLOCKNAME (白色)
+tile.extrautils:colorBlock.1.name=染色 BLOCKNAME (橙色)
+tile.extrautils:colorBlock.2.name=染色 BLOCKNAME (品红色)
+tile.extrautils:colorBlock.3.name=染色 BLOCKNAME (浅蓝色)
+tile.extrautils:colorBlock.4.name=染色 BLOCKNAME (黄色)
+tile.extrautils:colorBlock.5.name=染色 BLOCKNAME (黄绿色)
+tile.extrautils:colorBlock.6.name=染色 BLOCKNAME (粉色)
+tile.extrautils:colorBlock.7.name=染色 BLOCKNAME (灰色)
+tile.extrautils:colorBlock.8.name=染色 BLOCKNAME (浅灰色)
+tile.extrautils:colorBlock.9.name=染色 BLOCKNAME (青色)
+tile.extrautils:colorBlock.10.name=染色 BLOCKNAME (紫色)
+tile.extrautils:colorBlock.11.name=染色 BLOCKNAME (蓝色)
+tile.extrautils:colorBlock.12.name=染色 BLOCKNAME (棕色)
+tile.extrautils:colorBlock.13.name=染色 BLOCKNAME (绿色)
+tile.extrautils:colorBlock.14.name=染色 BLOCKNAME (红色)
+tile.extrautils:colorBlock.15.name=染色 BLOCKNAME (黑色)
 
 tile.extrautils:chandelier.name=奢华吊顶灯
 
@@ -153,7 +153,7 @@ tile.extrautils:conveyor.name=传送带
 tile.extrautils:cursedearthside.name=诅咒之土
 tile.extrautils:curtains.name=黑幕布帘
 tile.extrautils:dark_portal.name=漆黑之门
-tile.extrautils:dark_portal.1.name=
+tile.extrautils:dark_portal.1.name=传送门:最终王朝
 tile.extrautils:decorativeBlock1.0.name=镶边石砖
 tile.extrautils:decorativeBlock1.1.name=末影黑曜石
 tile.extrautils:decorativeBlock1.10.name=沙砾路
